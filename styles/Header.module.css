@@ -1,0 +1,9 @@
+.mainHeader {
+  height: auto;
+  font-size: 30px;
+  padding: 50px 0;
+  background-image: url(../public/img/Homepage_header-0321.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
