@@ -11,7 +11,7 @@ const Header = () => {
     article:
       "See how to empower teams, free developers, and get more done faster with headless, agile CMS",
   };
-  
+
   return (
     <header className={style.mainHeader}>
       <Container maxWidth="lg">
@@ -20,11 +20,11 @@ const Header = () => {
             <TextHeader>
               <TextContainer text={text} />
             </TextHeader>
-            <div>
+            <div style={{ padding: "2rem 0" }}>
               <CommonButton
                 outline="true"
                 bgColor="rgb(245,196,0)"
-                title="button one"
+                title="Learn More"
                 link="/About"
               />
             </div>
@@ -39,5 +39,5 @@ const Header = () => {
 export default Header;
 
 const TextHeader = styled.div`
-    color: #fff;
-  `;
+  color: #fff;
+`;

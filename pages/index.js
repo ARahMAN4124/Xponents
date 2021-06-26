@@ -7,6 +7,7 @@ import DeveloperSection from "../Components/DeveloperSection/DeveloperSection";
 import RecommendedSection from "../Components/RecommendedSection/RecommendedSection";
 import ChooseSection from "../Components/ChooseSection/ChooseSection";
 import IntegrationsSection from "../Components/IntegrationsSection/IntegrationsSectin";
+import Partners from "../Components/PartnersSection/Partners";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <ChooseSection/>
         <DeveloperSection />
         <IntegrationsSection/>
+        <Partners/>
         <RecommendedSection/>
       </main>
     </div>
