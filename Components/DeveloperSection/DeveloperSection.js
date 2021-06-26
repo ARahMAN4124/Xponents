@@ -28,7 +28,7 @@ const DeveloperSection = () => {
           <Grid className={Styles.rightSide} item xs={12} sm={6}>
             <MainText color="#ffffff">Business Users</MainText>
             <Text color="rgb(41, 16, 88)">Empowered to do more faster.</Text>
-            <Para>
+            <Para color="#ffffff">
               Take control of content creation with an intuitive experience that
               lets you build more, publish faster, and get more results from
               your digital content strategy.
@@ -57,7 +57,6 @@ const DevImg = styled.div`
 `;
 const DevContainer = styled.div`
   width: 100%;
-  height: auto;
 `;
 const MainText = styled.h2`
   color: ${({ color }) => color || "pink"};

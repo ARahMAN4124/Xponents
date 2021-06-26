@@ -5,6 +5,8 @@ import Header from "../Components/Header/Header";
 import StrongPerformer from "../Components/StrongPerformer/StrongPerformer";
 import DeveloperSection from "../Components/DeveloperSection/DeveloperSection";
 import RecommendedSection from "../Components/RecommendedSection/RecommendedSection";
+import ChooseSection from "../Components/ChooseSection/ChooseSection";
+import IntegrationsSection from "../Components/IntegrationsSection/IntegrationsSectin";
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       <main>
         <Header></Header>
         <StrongPerformer />
+        <ChooseSection/>
         <DeveloperSection />
+        <IntegrationsSection/>
         <RecommendedSection/>
       </main>
     </div>

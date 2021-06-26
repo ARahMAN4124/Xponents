@@ -1,6 +1,7 @@
 .main,
 .mainHeader,
-.img,.TextDiv{
+.img,
+.TextDiv {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -36,7 +37,8 @@
 .img {
   background-image: url(../public/img/homePage_peopleStrip-2.jpg);
 }
-.TextDiv{
+.TextDiv {
   background-image: url(../public/img/Circle_deepViolet.svg);
-  background-color: #5A20B9;
+  background-color: #5a20b9;
+  margin-top: 5rem;
 }

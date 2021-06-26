@@ -21,17 +21,17 @@ const CommonButton = (props) => {
     cursor: pointer;
     &:hover {
       background-color: ${outline == "true" ? bgColor : hover};
+      color: ${outline == "true" ? "" : bgColor};
     }
   `;
 
   return (
-    <Button
-      bgColor={outline === "true" ? "transparent" : bgColor}
-    >
-      <Link style={{ color: "#fffffLinkf" }} href={link}>
+    // eslint-disable-next-line @next/next/link-passhref
+    <Link style={{ color: "#fffffLinkf" }} href={link}>
+      <Button bgColor={outline === "true" ? "transparent" : bgColor}>
         {title}
-      </Link>
-    </Button>
+      </Button>
+    </Link>
   );
 };
 
