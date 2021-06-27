@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import React from "react";
 import Header from "../Components/Header/Header";
 import StrongPerformer from "../Components/StrongPerformer/StrongPerformer";
@@ -9,6 +8,7 @@ import ChooseSection from "../Components/ChooseSection/ChooseSection";
 import IntegrationsSection from "../Components/IntegrationsSection/IntegrationsSectin";
 import Partners from "../Components/PartnersSection/Partners";
 import Compromise from "../Components/Compromise/Compromise";
+import Footer from "../Components/Shared/Footer/Footer";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header></Header>
+        <Header/>
         <StrongPerformer />
         <ChooseSection/>
         <DeveloperSection />
@@ -28,6 +28,7 @@ export default function Home() {
         <Compromise/>
         <Partners/>
         <RecommendedSection/>
+        <Footer/>
       </main>
     </div>
   );

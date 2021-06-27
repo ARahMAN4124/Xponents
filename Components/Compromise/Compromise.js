@@ -69,7 +69,8 @@ const P = styled.p`
   padding-bottom: 30px;
 `;
 const VideoContainer = styled.div`
+background-color:#ffffff;
   border: 15px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
 `;

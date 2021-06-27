@@ -51,5 +51,7 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
-  
+}
+.footer {
+  padding: 5rem 0;
 }
