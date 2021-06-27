@@ -1,12 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-const VideoPlayer = ({ detail }) => {
-  console.log(detail);
-  const { videoLink, tum } = detail;
+const VideoPlayer = ({ tum,src }) => {
   return (
-    <ReactPlayer url={videoLink} light={tum?.src} playing controls />
+    <ReactPlayer url={src} light={tum?.src} playing controls />
   );
 };
 
 export default VideoPlayer;
+//videoLink

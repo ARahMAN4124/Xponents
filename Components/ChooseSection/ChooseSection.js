@@ -34,8 +34,10 @@ const ChooseSection = () => {
     setButton(btn);
   };
 
+  console.log(button);
+
   return (
-    <div style={{padding:"5rem 0"}}>
+    <div style={{ padding: "5rem 0" }}>
       <Container>
         <H2>Why Choose Contentstack?</H2>
         <Grid container spacing={4}>
@@ -56,7 +58,7 @@ const ChooseSection = () => {
           </Grid>
           <Grid item xs={7}>
             <VideoContainer>
-                    <VideoPlayer detail={button}/>
+              <VideoPlayer tum={button.tum} src={button.videoLink}/>
             </VideoContainer>
           </Grid>
         </Grid>

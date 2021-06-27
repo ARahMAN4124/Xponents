@@ -8,6 +8,7 @@ import RecommendedSection from "../Components/RecommendedSection/RecommendedSect
 import ChooseSection from "../Components/ChooseSection/ChooseSection";
 import IntegrationsSection from "../Components/IntegrationsSection/IntegrationsSectin";
 import Partners from "../Components/PartnersSection/Partners";
+import Compromise from "../Components/Compromise/Compromise";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <ChooseSection/>
         <DeveloperSection />
         <IntegrationsSection/>
+        <Compromise/>
         <Partners/>
         <RecommendedSection/>
       </main>
